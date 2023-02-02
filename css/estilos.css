@@ -111,6 +111,22 @@ fb8500 - naranja
     vertical-align: center;
 }
 
+.button {
+    background-color: #219ebc;
+    padding-bottom: 3rem;
+
+}
+
+.button-text {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    border-color: none;
+    margin-left: 40%;
+    margin-right: 40%;    
+
+}
+
 
 /* CLIENTES */
 
@@ -155,8 +171,7 @@ fb8500 - naranja
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
-    
-
+ 
 
 /* IMÁGENES */
 .img-logo-linkedin {
