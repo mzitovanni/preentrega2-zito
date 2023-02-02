@@ -108,7 +108,7 @@ fb8500 - naranja
     grid-template-columns: repeat(2, 1fr);
     background-color: #219ebc;
     padding-bottom: 1rem;
-
+    vertical-align: center;
 }
 
 
@@ -126,6 +126,7 @@ fb8500 - naranja
     grid-template-columns: repeat(6,1fr);
     padding-bottom: 4rem;
     padding: 0.5rem;
+    vertical-align: center;
 }
 
 .clientes-grid img {
@@ -176,5 +177,86 @@ form{
 
 @media (min-width: 768px)
 {
+    .header-flex {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header-flex li {
+        margin: 1rem;
+        font-size: 16px;
+    }
+ 
+    .banner-hero {
+        height: 70vh;
+    }
+    
+    .banner-hero {
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:larger;
+    }
+ 
+    .texo-descripcion {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .texo-descripcion p {
+        margin-top: 1rem;
+        padding-left: 15vh;
+        padding-right: 15vh;
+        font-size: 16px;
+    }
+ 
+    .servicio {
+        width: 20vw;
+    }
+    
+    .servicio img {
+        width: 15vw;
+        margin-bottom: 1rem;
+    }
+    
+    .servicio p {
+        font-size: 16px;
+    }
+    
+    .servicios-grid {
+        grid-template-columns: repeat(4, 1fr);    
+        padding-bottom: 5rem;
+        padding-left: 15vh;
+        padding-right: 15vh;
+    }
+    
+ 
+.subtitulo {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+}
+.clientes-grid {
+    padding-left: 15vh;
+    padding-right: 15vh;
+
+}
+
+.clientes-grid img {
+    width: 8vw;
+    margin-bottom: 1.5rem;
+    align-content: center;
+}   
+
+.footer{
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+.footer-text {
+    font-size: 14px;
+}
+
+.logo-footer img {
+    width: 80px;
+}
+
 
 }
