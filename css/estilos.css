@@ -70,6 +70,25 @@ fb8500 - naranja
 }
 
 
+.banner-hero-servicios {
+    background-image: url(/recursos/imagenes/ZMB_banner-servicios.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-servicios {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+
+
+
 
 /* DESCRIPCIÓN */
 .texo-descripcion {
@@ -99,6 +118,7 @@ fb8500 - naranja
 .servicio p {
     font-size: 13px;
     margin-bottom: 2rem;
+    margin: 0.5rem;
 }
 
 .subtitulo-color {
@@ -109,7 +129,7 @@ fb8500 - naranja
     padding-bottom: 3rem;
 }
 
-/* GRILLA DE SERVICIOS */
+/* GRILLA DE SERVICIOS - HOME */
 .servicios-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -135,6 +155,12 @@ fb8500 - naranja
 
 }
 
+.button-servicio {
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+    text-transform:uppercase;
+    padding: 0.5rem;
+}
 
 /* CLIENTES */
 
@@ -211,6 +237,9 @@ form{
     transform: scale(1.1,1.1)
 }
 
+.button-servicio:hover {
+    transform: scale(1.1,1.1)
+}
 
 @media (min-width: 768px)
 {
@@ -232,7 +261,17 @@ form{
         padding-right: 40%;
         font-size:larger;
     }
- 
+
+    .banner-hero-servicios {
+        height: 70vh;        
+    }
+
+    .banner-hero-servicios {
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:larger;    
+    }
+
     .texo-descripcion {
         padding-top: 5rem;
         padding-bottom: 5rem;
@@ -294,7 +333,7 @@ form{
         padding-right: 15vh;
     }
     .footer-text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .logo-footer img {
