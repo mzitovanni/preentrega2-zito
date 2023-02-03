@@ -101,6 +101,21 @@ fb8500 - naranja
     top: 50%;
 }
 
+.banner-hero-contacto {
+    background-image: url(/recursos/imagenes/ZMB_banner-contacto.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-contacto {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
 
 
 /* DESCRIPCIÓN */
@@ -211,7 +226,6 @@ fb8500 - naranja
 .equipo img{
     width: 200px;
     margin: 1.5rem;
-    
 }
 
 .equipo-flex ul {  
@@ -262,17 +276,40 @@ fb8500 - naranja
     margin-top: 0.5rem;
 }
  
+/* CONTACTO */
+.contacto-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30vh;
+    padding-right: 30vh;  
+    margin-top: 4rem; 
+}
+
+.contacto {
+    list-style: none; 
+    
+}
+
+
 
 /* FORMULARIO */
-
-form{
-    margin: 2rem; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding: 2rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(219, 218, 218);
+.formulario-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 30vh;
+    padding-right: 30vh;    
+    vertical-align: center;
+    margin-bottom: 4ram;
 }
+
+.formulario-grid h2
+    text-align: left;
+
+.legal {
+    font-size: 10px;
+}
+
 
 /* TRANSFORMACIONES */
 .logo img:hover {
@@ -328,6 +365,13 @@ form{
     }
 
     .banner-hero-quienesomos {
+        height: 70vh;
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:larger;            
+    }
+
+    .banner-hero-contacto {
         height: 70vh;
         padding: 20vh;
         padding-right: 40%;
