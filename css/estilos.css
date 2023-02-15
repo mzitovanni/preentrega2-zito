@@ -153,8 +153,8 @@ fb8500 - naranja
     background-color: #3d3f40;
     color: antiquewhite;
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+
+    padding: 3rem;
 }
 
 /* GRILLA DE SERVICIOS - HOME */
@@ -169,9 +169,11 @@ fb8500 - naranja
 
 .button {
     background-color: #3d3f40;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
 
 }
+
 
 .button-text {
     font-size: 15px;
@@ -194,8 +196,10 @@ fb8500 - naranja
 
 .subtitulo {
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
 
@@ -203,8 +207,9 @@ fb8500 - naranja
     display: grid;
     grid-template-columns: repeat(6,1fr);
     padding-bottom: 4rem;
-    padding: 0.5rem;
+    padding: 1rem;
     vertical-align: center;
+    margin-bottom: 4rem;
 }
 
 .clientes-grid img {
@@ -259,8 +264,8 @@ fb8500 - naranja
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: linear-gradient(0deg, rgba(2,48,71,1) 0%, rgba(10,85,102,1) 61%);    
-    padding: 2rem;
-    margin-top: 3rem;
+    padding: 3rem;
+    
 }
 
 .footer-text {
@@ -335,6 +340,12 @@ fb8500 - naranja
 
 @media (min-width: 768px)
 {
+    
+    h2 {
+        font-size: xx-large;
+    }
+
+    
     .header-flex {
         flex-direction: row;
         justify-content: space-around;
@@ -350,8 +361,8 @@ fb8500 - naranja
     
     .banner-hero {
         padding: 20vh;
-        padding-right: 40%;
-        font-size:larger;
+        padding-right: 30%;
+        font-size:180%;
     }
 
     .banner-hero-servicios {
@@ -379,8 +390,9 @@ fb8500 - naranja
     }
 
     .texo-descripcion {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding: 6rem;
     }
     
     .texo-descripcion p {
@@ -418,10 +430,17 @@ fb8500 - naranja
     
  
     .subtitulo {
-        padding-top: 4rem;
-        padding-bottom: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 3rem;
 
     }
+
+    .subtitulo-color {
+        padding-top: 6rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
     .clientes-grid {
         padding-left: 15vh;
         padding-right: 15vh;
