@@ -215,6 +215,7 @@ fb8500 - naranja
 .clientes-grid img {
     width: 15vw;
     margin-bottom: 0.5rem;
+
 }
 
 
@@ -372,21 +373,21 @@ fb8500 - naranja
     .banner-hero-servicios {
         padding: 20vh;
         padding-right: 40%;
-        font-size:larger;    
+        font-size:180%;    
     }
 
     .banner-hero-quienesomos {
         height: 70vh;
         padding: 20vh;
         padding-right: 40%;
-        font-size:larger;            
+        font-size:180%;            
     }
 
     .banner-hero-contacto {
         height: 70vh;
         padding: 20vh;
         padding-right: 40%;
-        font-size:larger;            
+        font-size:180%;           
     }
 
     .texo-descripcion {
@@ -408,11 +409,12 @@ fb8500 - naranja
     
     .servicio img {
         width: 15vw;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     
     .servicio p {
         font-size: 16px;
+        margin-bottom: 1rem;
     }
     
     .servicios-grid {
